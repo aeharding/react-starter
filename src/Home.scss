@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.home__tiles {
+    display: flex;
+
+    > * {
+        margin-right: 1rem;
+    }
+}
+
+.home__footer {
+    color: #444;
+    margin: auto 1rem 1rem;
+
+    span {
+        padding-right: 0.5rem;
+    }
+}

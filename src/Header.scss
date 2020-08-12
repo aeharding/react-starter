@@ -1,0 +1,42 @@
+.header {    
+    background: linear-gradient(to left, #87d819, darken(#87d819, 5%));
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.header__contents {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header__title {
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.header__nav {
+    display: flex;
+
+    padding: 0;
+    margin: 0 0 0 auto;
+
+    list-style: none;
+}
+
+.header__nav-item {
+    display: flex;
+
+    a {
+        padding: 1rem;
+
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &--active {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,34 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 13rem;
+    height: 13rem;
+
+    color: white;
+    background-color: #1987D8;
+
+    text-decoration: none;
+
+    transition: transform 100ms ease-out;
+
+    &:active {
+        transform: scale(0.97);
+    }
+}
+
+.tile__label {
+    font-size: 1.2rem;
+}
+
+.tile__icon {
+    font-size: 2.5rem;
+    opacity: 0.6;
+}
+
+.tile__value {
+    font-size: 3rem;
+    font-weight: 300;
+}
